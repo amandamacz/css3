@@ -1,0 +1,57 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      border: 5px solid #4fa04d;
+      width: 80%;
+      margin: 0 auto;
+    }
+    header{
+      background-color: beige; 
+    }
+    .hero img{
+      width: 100%;
+    }
+    div.left, div.middle, div.right{
+      border: 3px dotted orangered;
+      width: 30%;
+    }
+    
+    aside img{
+      width: 100%
+    }
+    
+    aside{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav{
+      background-color: pink;
+    
+    }
+    
+    ul{
+      text-align: center;
+    
+    }
+    li{
+      display: inline-block;
+      width: 150px;
+      border: 2px solid lightblue;
+      line-height: 3em;
+    
+    }
+    a{
+      color: lightblue;
+      text-decoration: none;
+      border: 1px solid white;
+      display: block;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-variant: small-caps;
+    
+    }
+      
